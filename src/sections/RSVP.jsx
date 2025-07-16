@@ -2,7 +2,7 @@ import React from "react";
 
 const RSVP = () => {
   return (
-    <section className="bg-gray-50 h-screen py-16 px-6 md:px-12 text-center">
+    <section id="rsvp" className="bg-gray-50 h-screen py-16 px-6 md:px-12 text-center">
       <h2 className="text-3xl font-cursive mb-6">RSVP</h2>
       <form className="max-w-md mx-auto space-y-4 text-left">
         <input

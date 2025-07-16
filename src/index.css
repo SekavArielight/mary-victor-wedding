@@ -4,3 +4,7 @@
 @theme {
   --font-meow: "Meow Script", cursive; 
 }
+
+html {
+  scroll-behavior: smooth;
+}
