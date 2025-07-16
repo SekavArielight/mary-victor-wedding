@@ -12,15 +12,29 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div className="flex space-x-6 text-sm">
-          <a href="#our-story" className="hover:underline">Our Story</a>
-          <a href="#rsvp" className="hover:underline">RSVP</a>
-          <a href="#gifts" className="hover:underline">Gifts</a>
+          <a href="#our-story" className="hover:underline">
+            Our Story
+          </a>
+          <a href="#rsvp" className="hover:underline">
+            RSVP
+          </a>
+          <a href="#gifts" className="hover:underline">
+            Gifts
+          </a>
         </div>
       </div>
 
       {/* Bottom note */}
       <div className="mt-8 text-center text-xs text-black border-t border-gray-500 pt-4">
-        Built with 💖 by <a href="http://sekav.netlify.app" target="_blank" rel="noopener noreferrer"><span className="font-semibold">God'swill Sekav Apya</span></a> &mdash; {new Date().getFullYear()}
+        Built with 💖 by{" "}
+        <a
+          href="http://sekav.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="font-semibold">God'swill Sekav Apya</span>
+        </a>{" "}
+        &mdash; {new Date().getFullYear()}
       </div>
     </footer>
   );
