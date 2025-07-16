@@ -1,5 +1,7 @@
 import React from "react";
 import Hero from "./sections/Hero";
+import OurStory from "./sections/OurStory";
+import RSVP from "./sections/RSVP";
 
 import heroImage1 from "./assets/IMG_1610.jpg";
 
@@ -22,7 +24,9 @@ const App = () => {
 
         {/* Scrollable Content Section */}
         <div className="relative z-10 w-full md:ml-auto md:w-1/2 md:h-screen overflow-y-auto p-6 md:p-10 bg-white">
-        <Hero/>
+          <Hero />
+          <OurStory />
+          <RSVP/>
         </div>
       </div>
     </main>
