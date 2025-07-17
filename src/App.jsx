@@ -1,10 +1,12 @@
 import Hero from "./sections/Hero";
+import Image from "./sections/Image";
 import OurStory from "./sections/OurStory";
 import RSVP from "./sections/RSVP";
 import Gifts from "./sections/Gifts";
 import Footer from "./sections/Footer";
 
 import heroImage1 from "./assets/main-hero.jpg";
+import Test from "./sections/Test";
 
 const App = () => {
   return (
@@ -26,6 +28,7 @@ const App = () => {
         {/* Scrollable Content Section */}
         <div className="relative z-10 w-full md:ml-auto md:w-1/2 md:h-screen overflow-y-auto bg-white"> {/**p-6 md:p-10 */}
           <Hero />
+          <Image/>
           <OurStory />
           <Gifts/>
           <RSVP/>

@@ -10,8 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
     "@tailwindcss/vite": "^4.1.11",
+    "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
+    "motion": "^12.23.6",
     "react": "^19.1.0",
+    "react-awesome-reveal": "^4.3.1",
     "react-dom": "^19.1.0",
     "tailwindcss": "^4.1.11"
   },
