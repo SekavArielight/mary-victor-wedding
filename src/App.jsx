@@ -4,7 +4,7 @@ import RSVP from "./sections/RSVP";
 import Gifts from "./sections/Gifts";
 import Footer from "./sections/Footer";
 
-import heroImage1 from "./assets/IMG_1610.jpg";
+import heroImage1 from "./assets/main-hero.jpg";
 
 const App = () => {
   return (
