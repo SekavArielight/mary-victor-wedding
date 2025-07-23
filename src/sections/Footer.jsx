@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
 
         {/* Quick Links */}
-        {/* <div className="flex space-x-6 text-sm">
+        <div className="hidden md:flex space-x-6 text-sm">
           <a href="#our-story" className="hover:underline">
             Our Story
           </a>
@@ -21,7 +21,7 @@ const Footer = () => {
           <a href="#gifts" className="hover:underline">
             Gifts
           </a>
-        </div> */}
+        </div>
       </div>
 
       {/* Bottom note */}

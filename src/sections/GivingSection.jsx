@@ -23,7 +23,7 @@ const GivingSection = () => {
   };
 
   return (
-    <div className="max-w-5xl mx-auto bg-white p-6 md:p-10 rounded-2xl shadow-md border border-gray-100">
+    <section className="max-w-5xl mx-auto bg-white p-6 md:p-10 h-screen flex flex-col justify-center">
       <Toaster position="top-center" reverseOrder={false} />
 
       <h2 className="text-2xl font-semibold text-[#5c1a00] flex items-center gap-2 mb-8">
@@ -59,7 +59,7 @@ const GivingSection = () => {
         Thank you for your <span className="text-yellow-600 font-medium">thoughtfulness and generosity</span>! <br />
         <span className="text-lg">❤️✨🎁</span>
       </p>
-    </div>
+    </section>
   );
 };
 

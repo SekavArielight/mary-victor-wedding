@@ -19,7 +19,7 @@ const App = () => {
           <img
             src={heroImage1}
             alt="Couple - Mary and Victor"
-            className="w-full h-[60vh] md:h-full object-cover"
+            className="w-full h-[70vh] md:h-full object-cover"
           />
           <div className="absolute bottom-10 left-6 md:left-10 text-white text-2xl md:text-4xl font-cursive">
             <h1>Mary & Victor</h1>

@@ -12,7 +12,7 @@ const Image = () => {
         viewport={{ once: true, amount: 0 }}
         src={secondImage}
         alt="Couple - Mary and Victor"
-        className="w-full h-[60vh] md:h-full object-cover"
+        className="w-full object-cover"
       />
     </section>
   );
