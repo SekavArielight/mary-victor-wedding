@@ -1,4 +1,4 @@
-import { Copy } from 'lucide-react';
+import { Copy, Gift } from 'lucide-react';
 import { Toaster, toast } from 'react-hot-toast';
 
 const accounts = [
@@ -27,7 +27,7 @@ const GivingSection = () => {
       <Toaster position="top-center" reverseOrder={false} />
 
       <h2 className="text-2xl font-semibold text-[#5c1a00] flex items-center gap-2 mb-8">
-        🎁 <span>Gift <span className="text-yellow-600">Details</span></span>
+        <Gift/> <span>Gift <span className="text-yellow-600">Details</span></span>
       </h2>
 
       <div className="flex flex-col md:flex-row gap-8 mb-8">
