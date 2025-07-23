@@ -1,5 +1,5 @@
-import React from 'react';
 import { Copy } from 'lucide-react';
+import { Toaster, toast } from 'react-hot-toast';
 
 const accounts = [
   {
@@ -19,11 +19,13 @@ const accounts = [
 const GivingSection = () => {
   const copyToClipboard = (text) => {
     navigator.clipboard.writeText(text);
-    alert('Account number copied!');
+    toast.success('Account number copied!');
   };
 
   return (
     <div className="max-w-5xl mx-auto bg-white p-6 md:p-10 rounded-2xl shadow-md border border-gray-100">
+      <Toaster position="top-center" reverseOrder={false} />
+
       <h2 className="text-2xl font-semibold text-[#5c1a00] flex items-center gap-2 mb-8">
         🎁 <span>Gift <span className="text-yellow-600">Details</span></span>
       </h2>
