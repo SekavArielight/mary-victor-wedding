@@ -2,6 +2,8 @@ import Hero from "./sections/Hero";
 import Image from "./sections/Image";
 import OurStory from "./sections/OurStory";
 import RSVP from "./sections/RSVP";
+import GivingSection from "./sections/GivingSection";
+import SecondImage from "./sections/SecondImage";
 import Gifts from "./sections/Gifts";
 import Footer from "./sections/Footer";
 
@@ -30,7 +32,8 @@ const App = () => {
           <Hero />
           <Image/>
           <OurStory />
-          <Gifts/>
+          <GivingSection/>
+          <SecondImage/>
           <RSVP/>
           <Footer/>
         </div>

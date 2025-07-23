@@ -1,8 +1,8 @@
 import { motion } from "motion/react"
 
-import secondImage from "../assets/second-main.jpg";
+import thirdImage from "../assets/third-main.jpg";
 
-const Image = () => {
+const SecondImage = () => {
   return (
     <section className="w-full">
       <motion.img
@@ -10,12 +10,12 @@ const Image = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 2, ease: "easeInOut" }}
         viewport={{ once: true, amount: 0 }}
-        src={secondImage}
+        src={thirdImage}
         alt="Couple - Mary and Victor"
-        className="w-full h-[60vh] md:h-full object-cover"
+        className="w-full object-cover"
       />
     </section>
   );
 };
 
-export default Image;
+export default SecondImage;

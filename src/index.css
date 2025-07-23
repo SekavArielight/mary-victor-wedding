@@ -13,3 +13,8 @@ html {
 /* body{
   font-family: var(--font-nunito);
 } */
+
+/* Tailwind @layer components if you're using it */
+.input-style {
+  @apply border border-gray-300 p-3 rounded-md w-full focus:outline-none focus:ring-2 focus:ring-[#5c1a00];
+}
