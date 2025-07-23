@@ -36,14 +36,14 @@ const GivingSection = () => {
             <h3 className="text-lg font-semibold text-[#5c1a00]">{acc.role}</h3>
 
             <p className="text-sm text-gray-700">
-              <span className="font-medium">👤 Name:</span> {acc.name}
+              <span className="font-medium">Name:</span> {acc.name}
             </p>
             <p className="text-sm text-gray-700">
-              <span className="font-medium">🏦 Bank:</span> {acc.bank}
+              <span className="font-medium">Bank:</span> {acc.bank}
             </p>
 
             <div className="flex items-center justify-between mt-4 bg-yellow-100 px-4 py-2 rounded-md">
-              <span className="text-base font-bold tracking-wide text-gray-800">💳 {acc.account}</span>
+              <span className="text-base font-bold tracking-wide text-gray-800">{acc.account}</span>
               <button
                 onClick={() => copyToClipboard(acc.account)}
                 className="bg-orange-500 hover:bg-orange-600 text-white p-2 rounded-full transition"
